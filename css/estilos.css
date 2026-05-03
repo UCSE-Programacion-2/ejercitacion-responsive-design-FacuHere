@@ -184,6 +184,48 @@ footer ul {
 
 /*** Responsive */
 
+@media (min-width: 450px){
+   /** mobile */
+ #card-section>div{
+    padding: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+ }   
+
+ .card{
+    width: 100% ;  
+ }
+
+  section>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+   .formulario{
+    width: 100%;
+    align-items: center;
+ }
+
+   .contacto{
+   width: 67%;
+   align-items: center;
+   }
+}
+
+footer{
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+footer>div{
+   width: 100%;
+}
+
+
 
 @media (max-width:768px){
     /** Tablets/Laptop */
