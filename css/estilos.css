@@ -184,8 +184,13 @@ footer ul {
 
 /*** Responsive */
 
-@media (min-width: 450px){
+@media (max-width: 450px){
    /** mobile */
+
+.bg-header {
+    height: 460px;
+}
+
  #card-section>div{
     padding: 0px;
     flex-wrap: wrap;
@@ -206,12 +211,23 @@ footer ul {
 
    .formulario{
     width: 100%;
+    padding: 0px;
     align-items: center;
  }
 
+ #container{
+  padding: 0px;
+ }
+ form{
+width: 100%;
+padding: 35px;
+margin: 0px;
+flex: absolute;
+ }
+
    .contacto{
-   width: 67%;
-   align-items: center;
+   width: 100%;
+   text-align: center;
    }
 }
 
@@ -239,6 +255,7 @@ footer>div{
 
  .card{
     width: 100% ;  
+    margin: 20px 0;
  }
 
   section>div{
